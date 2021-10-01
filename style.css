@@ -1,0 +1,120 @@
+
+.container{
+    max-width: 1100px;
+    
+}
+header{
+    background-image: url("Fondos/fondo1.jpg");
+    color: white;
+    height: 550px;
+    background-size: cover;
+    position: relative;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    width: 120px;
+}
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn{
+    background-color: #086cba;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.row{
+    margin: 0;
+}
+#row-cursos{
+    background-color: #094c94;
+    color: black;
+    height: 550px;
+}
+#row-cursos img{
+    height: 200px;
+    border-radius: 50%;
+}
+#row-nosotros{
+    background-image: url("Fondos/fondo2.jpg");
+    background-size: cover;
+    color: white;
+    height: 550px;
+}
+#row-nosotros img{
+    height: 400px;
+}
+#row-datos{
+    background-color: #094c94;
+    height: 550px;
+    color: #000;
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+.circulo{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #5596b6;
+    color: #094c94;
+}
+#row-contacto{
+background-image: url("Fondos/purple-neon-frame-smoke-effect.jpg");
+height: 550px;
+background-size: cover;
+padding-top: 100px !important;
+padding-bottom: 100px !important;
+color: white;
+}
+.circulo_2{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-color: #ba1de9;
+    color: #5c3194;  
+}
+#row-formulario{
+background-color: #8739ce;
+color: black;
+height: 1000px;
+}
+.titulo_formulario{
+    font-size: 40px;
+}
+
+.formu{
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3 );
+}
+.formu > *{
+    padding: 1em;
+}
+
+.formu input,
+.formu label,
+.formu textarea,
+.formu select,
+.formu option{
+    width: 100%;
+    padding: .2em;
+    border: none;
+}
+#row-comentarios{
+background-color: #6025c6;
+color: black;
+height: 1000px;
+}
+@media(max-width:992px){
+    .navbar-nav{
+        background-color:#094c94;
+    }
+} 
+nav{
+    z-index: 100;
+}
